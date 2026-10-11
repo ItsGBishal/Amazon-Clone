@@ -25,3 +25,29 @@
 | **Testing** | Jasmine Test Framework (v5.1.1), Spies & Mocks (`spyOn`) |
 | **Styling & Assets** | Vanilla Modular CSS (Shared & Page stylesheets), Google Fonts (Roboto) |
 | **Version Control & Tools** | Git, GitHub, VS Code |
+
+---
+
+## 🚀 How to Run This Project
+
+> **Note:** Because this project uses JavaScript ES6 modules (`type="module"`), opening HTML files directly from your file manager (`file:///` protocol) will trigger browser CORS restrictions. Please use a local web server to run it.
+
+### Option 1: VS Code Live Server (Recommended)
+1. Open the project folder in **Visual Studio Code**.
+2. Install the **Live Server** extension (by Ritwick Dey) from the Extensions Marketplace.
+3. Right-click on [`amazon.html`](amazon.html) and select **"Open with Live Server"**.
+4. The app will open in your default browser at `http://127.0.0.1:5500/amazon.html`.
+
+### Option 2: Using Node.js (`npx serve`)
+Open your terminal in the project root directory and run:
+```bash
+npx serve .
+```
+Then open the local URL shown in your terminal (typically `http://localhost:3000/amazon.html`).
+
+### Option 3: Using Python
+Open your terminal in the project root directory and run:
+```bash
+python -m http.server 8000
+```
+Then visit [`http://localhost:8000/amazon.html`](http://localhost:8000/amazon.html) in your browser.
