@@ -44,10 +44,3 @@ Open your terminal in the project root directory and run:
 npx serve .
 ```
 Then open the local URL shown in your terminal (typically `http://localhost:3000/amazon.html`).
-
-### Option 3: Using Python
-Open your terminal in the project root directory and run:
-```bash
-python -m http.server 8000
-```
-Then visit [`http://localhost:8000/amazon.html`](http://localhost:8000/amazon.html) in your browser.
